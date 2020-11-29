@@ -1,6 +1,117 @@
-.element {
-	height: 200px;
-	width: 200px;
-	background-color: antiquewhite;
-	margin: 20px;
+body {
+	background-color: rgb(224, 184, 81);
 }
+
+h1 {
+	font: bold;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px 12px
+}
+
+.element {
+	height: 260px;
+	width: 260px;
+	background-color: antiquewhite;
+	/* margin: auto; */
+	margin: 0 16px;
+	margin-top: 120px;
+	font-size: large;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+#container {
+	display: flex;
+	margin-left: 0%;
+}
+
+/* ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	font-size: large;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+} */
+
+/* // */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	background-color: #f1f1f1;
+}
+
+li {
+	float: left;
+	font-size: large;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+/*// 
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover, .main-nav__item a:active {
+    color: white; */
+
+/* } */
