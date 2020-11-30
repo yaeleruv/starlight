@@ -10,9 +10,21 @@
 // Gallery/ Colections?
 // Tickets (purches)
 // store/ shop - optional
-// Contact us
+// Contact 
+
+// Ui and content >>
+// maybe make a separation of color between the header of each page to the rest of the page.
+// the imgs will be displayed at the main page and at the gallery.
+// set one img of every artist at the main page. 
+// set two or three imgs of every artist at the gallery page.
 
 
 
-// gallery > imgs-
-// manet1.jpg - ‘A Game of Croquet’ (1873).
+// gallery >>  
+// Edouard Manet imgs- Impressionism
+// manet1.jpg - 'A Game of Croquet' (1873).
+// manet2.jpg - 'The Luncheon on the Grass' (1863).
+// manet3.jpg - 'Olympia' (1863).
+
+
+
