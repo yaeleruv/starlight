@@ -9,52 +9,25 @@ h1 {
 	margin: 20px 12px
 }
 
-.element {
+/* .element {
 	height: 260px;
 	width: 260px;
 	background-color: antiquewhite;
 	/* margin: auto; */
-	margin: 0 16px;
+
+/* margin: 0 16px;
 	margin-top: 120px;
 	font-size: large;
 	font-weight: lighter;
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
-}
+} */
 
 #container {
 	display: flex;
+	justify-content: space-around;
 	margin-left: 0%;
 }
-
-/* ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-
-li {
-	float: left;
-	font-size: large;
-	font-weight: lighter;
-	font-family: 'Montserrat', sans-serif;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #111;
-} */
-
-/* // */
 
 ul {
 	list-style-type: none;
@@ -73,45 +46,37 @@ li {
 
 li a {
 	display: block;
-	color: #000;
+	color: rgb(21, 54, 50);
 	padding: 8px 16px;
 	text-decoration: none;
+	margin: 8px;
 }
-
-/* Change the link color on hover */
 
 li a:hover {
 	background-color: #555;
 	color: white;
 }
+/* Change the link color on hover */
 
-/*// 
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 74px);
-    vertical-align: middle;
+.gallery {
+	margin: 5px;
+	border: 5px solid whitesmoke;
+	float: left;
+	width: 330px;
 }
 
-.main-nav__items {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.gallery:hover {
+	border: 5px solid goldenrod;
 }
 
-.main-nav__item {
-    display: inline-block;
-    margin: 0 16px;
+.gallery img {
+	width: 100%;
+	height: auto;
 }
 
-.main-nav__item a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: bold;
-    padding: 3px 0;
+.desc {
+	padding: 15px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
 }
-
-.main-nav__item a:hover, .main-nav__item a:active {
-    color: white; */
-
-/* } */

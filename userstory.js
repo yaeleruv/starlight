@@ -19,12 +19,19 @@
 // set two or three imgs of every artist at the gallery page.
 
 
-
-// gallery >>  
+// Collections >>  
 // Edouard Manet imgs- Impressionism
 // manet1.jpg - 'A Game of Croquet' (1873).
 // manet2.jpg - 'The Luncheon on the Grass' (1863).
 // manet3.jpg - 'Olympia' (1863).
 
+// Nahum Gutman - Israeli Art
+// gutman1 - 'The White Horseman' (1926)
+// gutman2 -  'Orchards in Jaffa, (1926)
+
+// Gustav Klimt - Modern Art
+// klimt1.jpg - 'Portrait of Friedericke Maria Beer' (1916)
+// klimt2.jpg - 'Adele Bloch-Bauer' I (1907)
+// klimt3.jpg - 'The Kiss' (1907–08)
 
 
