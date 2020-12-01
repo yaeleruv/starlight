@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(224, 184, 81);
+	background-color: rgb(149, 163, 177);
 }
 
 h1 {
@@ -27,9 +27,36 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	margin-left: 0%;
+	flex-wrap: wrap;
 }
 
-ul {
+.dropdown {
+	margin: 15px;
+}
+
+.btn {
+	color: black;
+	text-align: start;
+	font-weight: bold;
+	font-size: large;
+	background-color: rgb(58, 112, 182);
+	border: none;
+	width: 160px;
+}
+
+.btn:hover {
+	background-color: orchid;
+	color: black;
+}
+
+.dropdown-menu {
+	background-color: orchid;
+	color: black;
+	font-weight: bold;
+	font-size: medium;
+}
+
+/* ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -46,23 +73,24 @@ li {
 
 li a {
 	display: block;
-	color: rgb(21, 54, 50);
+	color: black;
 	padding: 8px 16px;
 	text-decoration: none;
 	margin: 8px;
 }
 
 li a:hover {
-	background-color: #555;
-	color: white;
-}
+	background-color: rgb(231, 231, 85);
+	color: rgb(37, 35, 35);
+} */
+
 /* Change the link color on hover */
 
 .gallery {
 	margin: 5px;
 	border: 5px solid whitesmoke;
 	float: left;
-	width: 330px;
+	width: 120px;
 }
 
 .gallery:hover {
@@ -79,4 +107,15 @@ li a:hover {
 	text-align: center;
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+/* responsive for mobile devices */
+
+@media screen and (max-width: 600px) {
+	.gallery {
+		width: 200px;
+	}
+	.desc {
+		color: red;
+	}
 }

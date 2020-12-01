@@ -7,17 +7,10 @@
 
 // >> threw the menu navbar the user can nevigate to: 
 // about
-// Gallery/ Colections?
+// Collections
 // Tickets (purches)
 // store/ shop - optional
 // Contact 
-
-// Ui and content >>
-// maybe make a separation of color between the header of each page to the rest of the page.
-// the imgs will be displayed at the main page and at the gallery.
-// set one img of every artist at the main page. 
-// set two or three imgs of every artist at the gallery page.
-
 
 // Collections >>  
 // Edouard Manet imgs- Impressionism
@@ -33,5 +26,57 @@
 // klimt1.jpg - 'Portrait of Friedericke Maria Beer' (1916)
 // klimt2.jpg - 'Adele Bloch-Bauer' I (1907)
 // klimt3.jpg - 'The Kiss' (1907–08)
+
+// Ui and content >>
+// maybe make a separation of color between the header of each page to the rest of the page.
+// the imgs will be displayed at the main page and at the gallery.
+// set one img of every artist at the main page. 
+// set two or three imgs of every artist at the gallery page.
+// TODO: all pages will contain the menu
+// use bootstrap grid for responsive design -- main page and collection page
+// use medie query for responsive design -- main page and collection page?
+// use medie query for responsive design -- about and contact us pages
+
+// css:
+// @media screen and (max-width: 600){ >> for screen devices like mobiles or lep top..
+// */ desktop first /*
+// }
+
+// @media print and (min-width: 600){ >> on a print mode
+// */ mobile first /*
+// }
+
+// @media screen and(min - width: 600){ 
+// */ mobile first /*
+// p {
+//    font-size: 125rem;
+//   }
+// }
+
+// @media screen and(min - width: 800){ 
+// */ mobile first /*
+// p {
+//    font-size: 150rem;
+//    line-height: 1.5;
+//   }
+// }
+
+// @media all (max-width: 600){ >> for all devices
+// */ desktop first /*
+// }
+
+// @media (max-width: 600){ >> for all devices by default
+// */ desktop first /*
+// }
+
+// @media (orientation: landacape){ >> for all devices by default
+// */ css rule /*
+// }
+
+// @media (orientation: portrait){ >> for all devices by default
+// */ css rule /*
+// }
+
+
 
 
