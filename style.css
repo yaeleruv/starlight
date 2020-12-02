@@ -9,6 +9,46 @@ h1 {
 	margin: 20px 12px
 }
 
+/* contact-us - delete? */
+/* .contact-details {
+	font: bold;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	margin-left: 15rem;
+}
+
+#contact-details-name {
+	color: rgb(196, 96, 25);
+	font: bold;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	margin-left: 15rem;
+} */
+
+/* contact-us */
+.card {
+	width: 25rem;
+	margin: 2rem 12rem;
+	margin-top: 1.3rem;
+}
+
+.card-title {
+	color: rgb(196, 96, 25);
+	font: bold;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card-text {
+	font: bold;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* menu */
 .dropdown {
 	margin: 15px;
@@ -93,6 +133,7 @@ h1 {
 
 /* responsive design */
 /* ask Tom about the width of the dropdown-menu when max-width screen is 600px */
+
 @media screen and (max-width: 600px) {
 	.gallery {
 		width: 150px;
@@ -140,8 +181,8 @@ h1 {
 	}
 }
 
-
 /*  continue hendeling with style when max-width screen is 500px */
+
 @media screen and (max-width: 500px) {
 	.gallery {
 		width: 170px;
@@ -153,7 +194,6 @@ h1 {
 		font-size: 30px;
 	}
 }
-
 
 /* delete? */
 
