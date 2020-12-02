@@ -32,7 +32,7 @@
 // the imgs will be displayed at the main page and at the gallery.
 // set one img of every artist at the main page. 
 // set two or three imgs of every artist at the gallery page.
-// TODO: all pages will contain the menu
+// TODO: all pages will contain the menu - done!
 // use bootstrap grid for responsive design -- main page and collection page
 // use medie query for responsive design -- main page and collection page?
 // use medie query for responsive design -- about and contact us pages
