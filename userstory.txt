@@ -9,11 +9,11 @@
 //Tel Aviv Museum of Art
 //27 Shaul HaMelech Blvd., Tel Aviv   |   Phone no. +972-3-6077020
 
-Opening Hours
-Sunday Closed
-Mon-Thu 10:00-14:00
-Friday 10:00-14:00
-Saturday 10:00-15:00
+// Opening Hours
+// Sunday Closed
+// Mon-Thu 10:00-14:00
+// Friday 10:00-14:00
+// Saturday 10:00-15:00
 
 // Entrance Fee
 // Children under 18 Free
