@@ -1,55 +1,51 @@
 body {
-	background-color: rgb(149, 163, 177);
+	/* background-color: rgb(149, 163, 177); */
+	background-image: linear-gradient(to right,rgb(226, 220, 220), rgb(96, 196, 166));
 }
 
-h1 {
+h2 {
 	font: bold;
 	font-size: 50px;
 	font-family: 'Montserrat', sans-serif;
 	margin: 20px 12px
 }
 
-/* contact-us - delete? */
-/* .contact-details {
-	font: bold;
-	font-size: 20px;
+.home-content {
+	display: flex;
+	margin-left: 200px;
+	width: fit-content;
+	justify-content: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: x-large;
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	margin-left: 15rem;
 }
 
-#contact-details-name {
-	color: rgb(196, 96, 25);
-	font: bold;
-	font-size: 25px;
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	margin-left: 15rem;
-} */
-
 /* contact-us */
+
 .card {
-	width: 25rem;
-	margin: 2rem 12rem;
-	margin-top: 1.3rem;
+	width: 270px;
+	margin-left: 4rem;
+    margin-top: 0.3rem;
+	height: 150px;
 }
 
 .card-title {
-	color: rgb(196, 96, 25);
+	color:rgb(17, 68, 63);
 	font: bold;
-	font-size: 25px;
+	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .card-text {
 	font: bold;
-	font-size: 20px;
+	font-size: 12px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 /* menu */
+
 .dropdown {
 	margin: 15px;
 	font-weight: bold;
@@ -60,18 +56,18 @@ h1 {
 	text-align: start;
 	font-weight: bold;
 	font-size: large;
-	background-color: rgb(58, 112, 182);
+	background-color: rgb(105, 211, 200);
 	border: none;
 	width: 160px;
 }
 
 .btn:hover {
-	background-color: orchid;
+	background-color: grey;
 	color: black;
 }
 
 .dropdown-menu {
-	background-color: orchid;
+	background-color: rgb(53, 185, 172);
 	color: black;
 	font-weight: bolder;
 	font-size: medium;
@@ -90,29 +86,51 @@ h1 {
 	font-weight: bold;
 }
 
+/* about */
+
+.about-content {
+	display: flex;
+	margin-left: 200px;
+	width: fit-content;
+	justify-content: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* container and gallery */
+
 #container {
 	display: flex;
-	justify-content: space-around;
-	justify-content: flex-end;
+	/* justify-content: center; */
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin-top: 0;
+	margin-bottom: 20px;
+	justify-content: center;
 }
 
 .collection-name {
-	margin: 10px;
-	margin-top: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	font-size: x-large;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
+.collection-name p {
+	margin: 0;
+}
+
 .gallery {
-	margin: 10px 45px;
+	margin: 10px 55px;
 	border: 5px solid whitesmoke;
-	float: left;
-	width: 300px;
+	/* float: left; */
+	width: 250px;
 }
 
 .gallery:hover {
@@ -132,6 +150,7 @@ h1 {
 }
 
 /* responsive design */
+
 /* ask Tom about the width of the dropdown-menu when max-width screen is 600px */
 
 @media screen and (max-width: 600px) {
