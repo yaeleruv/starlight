@@ -56,6 +56,18 @@
 // use medie query for responsive design -- main page and collection page?
 // use medie query for responsive design -- about and contact us pages
 
+// responsive design todos:
+// fix font-size of header at main page when max-width is 600 > from 50px to 40px - fixed
+// fix font-size of main-massege at main page when max-width is 600 > from 35px to 25px - fixed
+// fix font-size of sub-massege at main page when max-width is 600 > from 25px to 20px - fixed
+// fix font-size of card-title at card at main page when max-width is 600 > from 18px to 12px - fixed 
+// fix font-size of card-text at card at main page when max-width is 600 > from 12px to 10px - fixed 
+// fix position of cards at main page when max-width is 600 - fixed
+// fix font-size of about-content at about page when max-width is 600 > from x-large to large (and remove <b> tag) - fixed
+
+
+
+
 // css:
 // @media screen and (max-width: 600){ >> for screen devices like mobiles or lep top..
 // */ desktop first /*

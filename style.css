@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-image: linear-gradient(to right, rgb(226, 220, 220), rgb(96, 196, 166));
 }
@@ -20,33 +24,14 @@ h2 {
 .container h1 {
 	color: goldenrod;
 	font: normal;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 5rem;
+	margin-left: 2rem;
+	margin-left: 2rem;
 }
 
-.container h4 {
-	font: bold;
-	font-size: 25px;
-	font-family: 'Montserrat', sans-serif;
-	margin-left: 5rem;
-}
 
-/* 
-.home-content {
-	display: flex;
-	margin-left: 200px;
-	width: fit-content;
-	justify-content: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-size: x-large;
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-} */
-
-/* contact-details */
-
+/* info */
 
 .card {
 	width: 200px;
@@ -114,15 +99,18 @@ h2 {
 
 .about-content {
 	display: flex;
-	margin-left: 200px;
-	width: fit-content;
-	justify-content: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	width: fit-content;
+	justify-content: center;
 	font-size: x-large;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
+
+/* for spacing betwwen lines */
 
 p.big {
 	line-height: 1.8;
@@ -180,15 +168,50 @@ p.big {
 
 /* ask Tom about the width of the dropdown-menu when max-width screen is 600px */
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+	h2 {
+		font: bold;
+		font-size: 40px;
+		font-family: 'Montserrat', sans-serif;
+		margin: 20px 12px;
+	}
 	.gallery {
 		width: 150px;
 	}
 	.desc {
 		color: rgb(19, 18, 18);
 	}
-	h1 {
-		font-size: 40px;
+	.container h1 {
+		color: goldenrod;
+		font: normal;
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+		margin-left: 2rem;
+		margin-left: 2rem;
+	}
+	
+	.card-title {
+		color: rgb(17, 68, 63);
+		font: bold;
+		font-size: 12px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.card-text {
+		font: bold;
+		font-size: 10px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.about-content {
+		display: flex;
+		margin-left: 5rem;
+		margin-right: 5rem;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: fit-content;
+		justify-content: center;
+		font-size: large;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
 	}
 	.dropdown {
 		margin: 15px;
@@ -199,16 +222,16 @@ p.big {
 		text-align: start;
 		font-weight: bold;
 		font-size: small;
-		background-color: rgb(58, 112, 182);
+		background-color: rgb(105, 211, 200);
 		border: none;
 		width: 100px;
 	}
 	.btn:hover {
-		background-color: orchid;
+		background-color:grey;
 		color: black;
 	}
 	.dropdown-menu {
-		background-color: orchid;
+		background-color: rgb(53, 185, 172);
 		color: black;
 		font-weight: bolder;
 		font-size: small;
@@ -226,49 +249,3 @@ p.big {
 		font-weight: bold;
 	}
 }
-
-/*  continue hendeling with style when max-width screen is 500px */
-
-@media screen and (max-width: 500px) {
-	.gallery {
-		width: 170px;
-	}
-	.desc {
-		color: rgb(19, 18, 18);
-	}
-	h1 {
-		font-size: 30px;
-	}
-}
-
-/* delete? */
-
-/* ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 150px;
-	background-color: #f1f1f1;
-}
-
-li {
-	float: left;
-	font-size: large;
-	font-weight: lighter;
-	font-family: 'Montserrat', sans-serif;
-}
-
-li a {
-	display: block;
-	color: black;
-	padding: 8px 16px;
-	text-decoration: none;
-	margin: 8px;
-}
-
-li a:hover {
-	background-color: rgb(231, 231, 85);
-	color: rgb(37, 35, 35);
-} */
-
-/* Change the link color on hover */
