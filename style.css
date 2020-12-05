@@ -1,6 +1,5 @@
 body {
-	/* background-color: rgb(149, 163, 177); */
-	background-image: linear-gradient(to right,rgb(226, 220, 220), rgb(96, 196, 166));
+	background-image: linear-gradient(to right, rgb(226, 220, 220), rgb(96, 196, 166));
 }
 
 h2 {
@@ -10,6 +9,30 @@ h2 {
 	margin: 20px 12px
 }
 
+.jumbotron-fluid {
+	background-color: whitesmoke;
+	padding-right: 0;
+	padding-left: 0;
+	border-radius: 0;
+	padding: 20px;
+}
+
+.container h1 {
+	color: goldenrod;
+	font: normal;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 5rem;
+}
+
+.container h4 {
+	font: bold;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 5rem;
+}
+
+/* 
 .home-content {
 	display: flex;
 	margin-left: 200px;
@@ -20,19 +43,20 @@ h2 {
 	font-size: x-large;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
-}
+} */
 
-/* contact-us */
+/* contact-details */
+
 
 .card {
-	width: 270px;
-	margin-left: 4rem;
-    margin-top: 0.3rem;
+	width: 200px;
+	margin-left: 0rem;
+	margin-top: 0.3rem;
 	height: 150px;
 }
 
 .card-title {
-	color:rgb(17, 68, 63);
+	color: rgb(17, 68, 63);
 	font: bold;
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
@@ -100,17 +124,20 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+p.big {
+	line-height: 1.8;
+}
+
 /* container and gallery */
 
 #container {
 	display: flex;
-	/* justify-content: center; */
-	justify-content: space-evenly;
+	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin-top: 0;
 	margin-bottom: 20px;
-	justify-content: center;
 }
 
 .collection-name {
@@ -127,9 +154,9 @@ h2 {
 }
 
 .gallery {
-	margin: 10px 55px;
+	margin-right: 30px;
+	/* margin: 10px 30px; */
 	border: 5px solid whitesmoke;
-	/* float: left; */
 	width: 250px;
 }
 
